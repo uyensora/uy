@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>LAB4</title>
+        <link rel="stylesheet" href="CSS/Lab9-12.css">
+    </head>
+    
+    <body>
+        <div class="container">
+        <header>
+            <div class="company-info">
+                <h1>FPT POLYTECHNIC </h1>
+                <h3>Thực học - Thực nghiệm</h3>
+            </div>
+            <div class="top-right">
+                <a href="dangnhap.html">Đăng nhập</a> |
+                <a href="dangki.html">Đăng kí</a> 
+            </div>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="LAB16.html">Trang chủ</a></li> | 
+                <li><a href="video.html">Video</a></li> |
+                <li>
+                    <a href="bang.html">Bảng</a>
+                    <ul>
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </li> |
+                <li><a href="tintuc.html">Tin tức</a></li> |
+                <li><a href="lienhe.html">Liên hệ</a></li>    
+       
+        </ul>
+        <ul>
+        
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <form action="Register.php"
+                method="post" enctype="multipart/from-data">
+                <label><b>H</b>Ọ VÀ TÊN:</label><br/>
+                <input name="id" type="text"/><br/>
+                <label>GIỚI TÍNH:</label><br/>
+                <label><input name="gender" type="radio" checked/><b>N</b>AM</label>
+                <label><input name="gender" type="radio"/><b>N</b>Ữ</label><br/>  
+
+                
+              <label><b>H</b>ÌNH ẢNH:</label><br/>
+              <form action="upload.php"
+              method="post"
+              enctype="multipart/from-data">
+              <input type="file" name="photo"/>
+              </form><br/>
+
+              <label><b>Q</b>UỐC TỊCH:</label><br/>
+              <select>
+                  <option selected>Viet Nam</option>
+                  <option >United States</option>
+                  <opion>Singapore</opion>
+              </select><br/>
+
+              <label> <b>S</b>Ở THÍCH:</label><br/>
+              <label><input name="blood" type="radio" /><b>T</b>HỂ THAO</label>
+              <label><input name="blood" type="radio" checked /><b>D</b>U LỊCH</label>
+              <label><input name="blood" type="radio" /><b>Â</b>M NHẠC</label>
+              <label><input name="blood" type="radio" /><b>Ẩ</b>M THỰC</label><br/>
+
+              <label><b>G</b>HI CHÚ:</label><br/>
+              <textarea rows="3" cols="30"></textarea>
+              <hr/>
+              <input id="submit" type="submit" name="submit" value="Đăng kí">
+               <input id="submit" type="submit" name="submit" value="Nhập lại"><BR/>
+              
+            
+            
+            <br/>
+            <div class="form-group">
+            <label>HỌ VÀ TÊN:</label><br/>
+            <input tabindex="1" type="text" name="id" class="form-control"/><br/>
+            </div>
+            
+            <div class="form-group">
+            <label >QUỐC TỊCH:</label><br/>
+            <input value="Việt Nam" readonly type="text" name="id" class="form-control"/><br/>
+            </div>
+            
+            <div class="form-group">
+            <label>GHI CHÚ:</label><br/>
+            <textarea  tabindex="2" rows="10" cols="60" class="form-control"> </textarea><br/>
+            </div>
+
+            <hr/>
+            <button tabindex="3" class="form-button">Thêm</button>
+            <button tabindex="4" class="form-button">Sửa</button>
+            <button disabled class="form-button">Xóa</button><br><br/>
+
+        </article>
+    </main>
+        <aside>
+            <ul class="vmenu">
+                <li><a href="#">Máy tính xách tay</a> </li>
+                <li><a href="#">Điện thoại di động</a> </li>
+                <li><a href="#">Máy quay phim</a> </li>
+                <li><a href="#">Máy chụp ảnh</a> </li>
+                <li><a href="#">Tủ lạnh</a> </li>
+                <li><a href="#">Đồng hồ đeo tay</a> </li>
+                <li><a href="#">Đồng hồ treo tường</a> </li>
+                <li><a href="#">Máy giặt</a> </li>
+                <li><a href="#">Bàn là</a> </li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        FPT Polytechnic © 2017. All rights reserved. Do Võ Thị Thúy Uyên thiết kế 
+    </footer>
+    </div>
+</body>
+</html>
